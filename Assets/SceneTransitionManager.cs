@@ -25,9 +25,9 @@ public class SceneTransitionManager : MonoBehaviour
 
     public void FinalScene()
     {
-        if (score > 3)
+        if (score >= 3)
         {
-            StartCoroutine(GoToSceneRoutine(3));
+            StartCoroutine(GoToSceneRoutine(5));
         }
         else
         {

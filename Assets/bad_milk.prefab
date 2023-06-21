@@ -412,7 +412,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Plastic Carton
+  m_text: 'Plastic Bottle
 
     6/7/23'
   m_isRightToLeft: 0

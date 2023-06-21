@@ -27,11 +27,11 @@ public class SceneTransitionManager : MonoBehaviour
     {
         if (score > 3)
         {
-            StartCoroutine(GoToSceneRoutine(1));
+            StartCoroutine(GoToSceneRoutine(3));
         }
         else
         {
-            StartCoroutine(GoToSceneRoutine(2));
+            StartCoroutine(GoToSceneRoutine(4));
         }
     }
 
